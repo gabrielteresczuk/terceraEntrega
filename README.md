@@ -103,11 +103,9 @@ Server -> Servidor Node + Build Front End
 
   
 
-- URL de la solucion: [Github](https://github.com/gabrielteresczuk/fylo-landing) 📌
+**HEROKU**
 
-  
-
-- URL del Sitio en Vivo: [Demo](https://gabriel-ecommerce.herokuapp.com/) 👀
+- URL del Sitio en Vivo: [Demo en HEROKU](https://gabriel-ecommerce.herokuapp.com/) 👀
 
   
 
