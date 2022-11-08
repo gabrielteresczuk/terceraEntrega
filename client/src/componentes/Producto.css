@@ -1,0 +1,118 @@
+.Producto{
+    background-color: #FAFAFA;
+    height: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.Producto h1{
+    padding-left: 2rem;
+}
+
+.Producto__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(375px,1fr));
+    align-items: start;
+}
+
+.Producto__grid__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.Producto__grid__img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.Producto__grid__text{
+    padding: 1rem;
+    word-wrap:break-word;
+}
+
+.grid__nombre{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.grid__descripcion{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #5e5e5e;
+    word-wrap:break-word;
+    padding: 0.7rem 0rem;
+    width: 100%;
+}
+.grid__stock{
+    font-size: 1.3rem;
+}
+
+.grid__precio{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #416fdf;
+    padding: 1rem 0rem;
+}
+
+.grid__controls{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.grid__cantidad{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /*border: 1px solid #416fdf;*/
+    background-color: #dfdfdf;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.grid__cantidad div{
+    width: 20px;
+    text-align: center;
+}
+
+.grid__cantidad button{
+    padding: 10px;
+    background-color: #416fdf;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.Producto__ok{
+    color:#4CAF50;
+    background-color: #4CAF5030;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Producto__btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #416dfd;
+    color: white;
+    padding: 5px 20px;
+    /*width: 100%;*/
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Producto__btn:hover{
+    opacity: 0.8;
+}

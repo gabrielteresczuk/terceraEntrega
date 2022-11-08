@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": 1662750239125,
+    "id": 1,
+    "nombre": "Gigabyte Gaming GeForce RTX 30",
+    "descripcion": "Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará.",
+    "codigo": "111",
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_685463-MLA48789741716_012022-O.webp",
+    "precio": "11",
+    "stock": "10"
+  },
+  {
+    "timestamp": 1662994697030,
+    "id": 2,
+    "nombre": "GeForce RTX 3060 Advanced",
+    "descripcion": "La GeForce RTX™ 3060 Ti y la RTX 3060 te permiten disfrutar de los juegos más recientes con la potencia de Ampere, la segunda generación de la arquitectura RTX de NVIDIA. Logra un rendimiento increíble con los Núcleos Ray Tracing y los Núcleos Tensor mejorados, los nuevos multiprocesadores de streaming y la memoria G6 de alta velocidad.",
+    "codigo": "1028",
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_995499-MLA48242519843_112021-O.webp",
+    "precio": "119699",
+    "stock": "12"
+  },
+  {
+    "timestamp": 1662994733940,
+    "id": 3,
+    "nombre": "GEFORCE GTX 1650 VENTUS",
+    "descripcion": "Como cuenta con 896 núcleos, los cálculos para el procesamiento de gráficos se realizarán de forma simultánea logrando un resultado óptimo del trabajo de la placa. Esto le permitirá ejecutar lecturas dispersas y rápidas de y hacia la GPU.",
+    "codigo": "3398",
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_686681-MLA42349359935_062020-O.webp",
+    "precio": "57900",
+    "stock": "8"
+  },
+  {
+    "timestamp": 1662994766364,
+    "id": 4,
+    "nombre": "RTX 3060 GEFORCE RTX",
+    "descripcion": "Cuenta con 3584 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos.",
+    "codigo": "5091",
+    "foto": "https://http2.mlstatic.com/D_NQ_NP_728902-MLA45453583998_042021-O.webp",
+    "precio": "148348",
+    "stock": "10"
+  }
+]

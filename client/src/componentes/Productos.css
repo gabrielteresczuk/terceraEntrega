@@ -1,0 +1,74 @@
+.Productos {
+  background-color: #fafafa;
+  min-height: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.Productos h1 {
+  text-align: center;
+  color: #416fdf;
+}
+
+.Cards__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.Productos_admin {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.Productos__btn {
+  text-decoration: none;
+  color: white;
+  background-color: #416fdf;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.Productos__btn:hover {
+  opacity: 0.8;
+}
+
+/* -------------- orden ------------- */
+
+.productos_orden_cont {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+}
+
+.productos_orden {
+  background-color: #fafafa;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.articulo-lista__cont-select {
+  height: 2rem;
+  font-size: 17px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  outline: none;
+  transition: all ease 0.2s;
+}
+.articulo-lista__cont-select:focus {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}

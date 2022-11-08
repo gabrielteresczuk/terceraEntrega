@@ -1,0 +1,90 @@
+
+.Card{
+    background-color: #FAFAFA;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.Card__id{
+    padding: 5px;
+    color: #6eaee7;
+    font-weight: 600;
+}
+
+.Card__img::before{
+    content: '';
+    background-color: #cccccc;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.Card__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Card__nombre{
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.Card__desc{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    color: #9c9c9c;
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Card__precio{
+    color: #416dfd;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+
+}
+
+.Card__Controls{
+    display: flex;
+    padding: 0.5rem 1rem 1rem 1rem;
+    width: 100%;
+}
+
+
+.Card__btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #416dfd;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Card__btn:hover{
+    opacity: 0.8;
+}
+
+.Card__Admin__Controls{
+    display: flex;
+    padding: 0rem 1rem 1rem 1rem;
+    gap: 1rem;
+}
+
+.Card__green{
+    background-color: #4CAF50;
+}
+
+.Card__red{
+    background-color: #EF5350;
+}
